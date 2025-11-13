@@ -1,0 +1,32 @@
+{
+  "linkedin": {
+    "name": "Post LinkedIn",
+    "template": "Hook iniziale + Insight pratico + CTA finale",
+    "instructions": "Scrivi un post professionale su {{tema}}. Mantieni il tono {{tono}} e rivolgiti a {{target}}. Usa un hook forte, aggiungi un insight concreto e chiudi con una CTA chiara.",
+    "variables": ["tema", "tono", "target"]
+  },
+  "blog": {
+    "name": "Articolo Blog",
+    "template": "Titolo + Introduzione + 3 sezioni con sottotitoli + Conclusione",
+    "instructions": "Produci un articolo su {{tema}} in tono {{tono}} per {{target}}. Introduci il contesto, sviluppa 3 sezioni con esempi e chiudi con takeaway e invito all’azione.",
+    "variables": ["tema", "tono", "target"]
+  },
+  "email": {
+    "name": "Email Marketing",
+    "template": "Oggetto + Corpo con proposta di valore + CTA",
+    "instructions": "Redigi un’email su {{tema}} in tono {{tono}} indirizzata a {{target}}. Includi un oggetto chiaro, una proposta di valore sintetica e una CTA specifica.",
+    "variables": ["tema", "tono", "target"]
+  },
+  "product": {
+    "name": "Scheda Prodotto",
+    "template": "Nome prodotto + Benefit + Specifiche + CTA",
+    "instructions": "Descrivi un prodotto legato a {{tema}} con tono {{tono}} per {{target}}. Evidenzia benefici, specifiche tecniche e chiudi con una CTA orientata alla conversione.",
+    "variables": ["tema", "tono", "target"]
+  },
+  "reel": {
+    "name": "Script Instagram Reel",
+    "template": "Hook 3s + 3 bullet rapidi + CTA finale",
+    "instructions": "Scrivi uno script per Reel su {{tema}} con tono {{tono}} rivolto a {{target}}. Usa un hook immediato, 3 punti chiari e una CTA breve.",
+    "variables": ["tema", "tono", "target"]
+  }
+}
